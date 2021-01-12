@@ -1,0 +1,21 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0302 
+header_name {.h} 
+code_name {.cxx}
+decl {\#include <FL/fl_draw.H>} {private local
+} 
+
+decl {\#include <FL/Fl_Double_Window.H>} {private local
+} 
+
+Function {} {open
+} {
+  Fl_Window {} {open
+    xywh {8 31 1896 993} type Double hide
+  } {
+    Fl_Box {} {
+      label drawbox
+      xywh {5 2 1900 1000}
+    }
+  }
+} 
